@@ -5,11 +5,10 @@
 
 ---
 <p align="center">
-  <img src="./Innovus-PnR/Layout.png" width="700"/>
+  <img src="https://raw.githubusercontent.com/ChipJUICE/PowerNAP-Low-Power-Clock-Power-Management-System/main/PowerNAP/Innovus-PnR/Layout.png" width="700"/>
   <br>
   <em>Final GDS Layout — pwr_ctrl_top | TSMC N16ADFP 16nm FinFET | Post-ECO DRC Clean</em>
 </p>
-
 ## 📌 Project Overview
 
 **PowerNAP** is a modular low-power clock and power management controller implemented in SystemVerilog and taken through a complete **RTL-to-GDS physical design flow** using industry-standard EDA tools. The design integrates activity monitoring, idle prediction, and FSM-based clock gating to drive peripherals across **ACTIVE / IDLE / SLEEP** power states.
