@@ -1,0 +1,90 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : pwr_ctrl_top_N4_W16
+Version: W-2024.09-SP5-5
+Date   : Thu Apr 23 00:51:38 2026
+****************************************
+
+
+Library(s) Used:
+
+    N16ADFP_StdCelltt0p8v25c_ccs (File: /home/ns6503/Documents/powernap/lib/N16ADFP_StdCelltt0p8v25c_ccs.db)
+
+
+Operating Conditions: tt0p8v25c   Library: N16ADFP_StdCelltt0p8v25c_ccs
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+pwr_ctrl_top_N4_W16    ZeroWireload      N16ADFP_StdCelltt0p8v25c_ccs
+clock_gater_N4         ZeroWireload      N16ADFP_StdCelltt0p8v25c_ccs
+cfg_regs_N4_W16        ZeroWireload      N16ADFP_StdCelltt0p8v25c_ccs
+activity_counter_N4_W16
+                       ZeroWireload      N16ADFP_StdCelltt0p8v25c_ccs
+idle_predictor_N4_W16  ZeroWireload      N16ADFP_StdCelltt0p8v25c_ccs
+power_fsm_N4           ZeroWireload      N16ADFP_StdCelltt0p8v25c_ccs
+SNPS_CLOCK_GATE_HIGH_cfg_regs_N4_W16_0
+                       ZeroWireload      N16ADFP_StdCelltt0p8v25c_ccs
+SNPS_CLOCK_GATE_HIGH_cfg_regs_N4_W16_1
+                       ZeroWireload      N16ADFP_StdCelltt0p8v25c_ccs
+SNPS_CLOCK_GATE_HIGH_cfg_regs_N4_W16_2
+                       ZeroWireload      N16ADFP_StdCelltt0p8v25c_ccs
+SNPS_CLOCK_GATE_HIGH_cfg_regs_N4_W16_3
+                       ZeroWireload      N16ADFP_StdCelltt0p8v25c_ccs
+SNPS_CLOCK_GATE_HIGH_cfg_regs_N4_W16_4
+                       ZeroWireload      N16ADFP_StdCelltt0p8v25c_ccs
+SNPS_CLOCK_GATE_HIGH_cfg_regs_N4_W16_5
+                       ZeroWireload      N16ADFP_StdCelltt0p8v25c_ccs
+SNPS_CLOCK_GATE_HIGH_cfg_regs_N4_W16_6
+                       ZeroWireload      N16ADFP_StdCelltt0p8v25c_ccs
+SNPS_CLOCK_GATE_HIGH_cfg_regs_N4_W16_7
+                       ZeroWireload      N16ADFP_StdCelltt0p8v25c_ccs
+SNPS_CLOCK_GATE_HIGH_cfg_regs_N4_W16_8
+                       ZeroWireload      N16ADFP_StdCelltt0p8v25c_ccs
+SNPS_CLOCK_GATE_HIGH_activity_counter_N4_W16_0
+                       ZeroWireload      N16ADFP_StdCelltt0p8v25c_ccs
+SNPS_CLOCK_GATE_HIGH_activity_counter_N4_W16_1
+                       ZeroWireload      N16ADFP_StdCelltt0p8v25c_ccs
+SNPS_CLOCK_GATE_HIGH_activity_counter_N4_W16_2
+                       ZeroWireload      N16ADFP_StdCelltt0p8v25c_ccs
+SNPS_CLOCK_GATE_HIGH_activity_counter_N4_W16_3
+                       ZeroWireload      N16ADFP_StdCelltt0p8v25c_ccs
+
+
+Global Operating Voltage = 0.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  =  70.7671 uW   (69%)
+  Net Switching Power  =  31.1167 uW   (31%)
+                         ---------
+Total Dynamic Power    = 101.8839 uW  (100%)
+
+Cell Leakage Power     = 649.2214 nW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network  6.7022e-02        2.6542e-02           10.5886        9.3574e-02  (  91.26%)  i
+register       2.8161e-03        1.5170e-03          257.6327        4.5907e-03  (   4.48%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational  9.2943e-04        3.0579e-03          380.9840        4.3683e-03  (   4.26%)
+--------------------------------------------------------------------------------------------------
+Total          7.0767e-02 mW     3.1117e-02 mW       649.2052 nW         0.1025 mW
+1

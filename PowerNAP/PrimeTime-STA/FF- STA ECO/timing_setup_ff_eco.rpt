@@ -1,0 +1,45 @@
+****************************************
+Report : timing
+	-path_type full
+	-delay_type max
+	-max_paths 1
+	-sort_by slack
+Design : pwr_ctrl_top_N4_W16
+Version: T-2022.03-SP5-1
+Date   : Fri Apr 24 23:16:11 2026
+****************************************
+
+
+  Startpoint: u_clock_gater/enable_latched_reg[3]
+               (negative level-sensitive latch clocked by clk)
+  Endpoint: u_clock_gater/U8
+               (falling clock gating-check end-point clocked by clk')
+  Path Group: **clock_gating_default**
+  Path Type: max
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clk (fall edge)                                   2.50       2.50
+  clock network delay (ideal)                             0.23       2.73
+  u_clock_gater/enable_latched_reg[3]/EN (LNQD1BWP20P90)
+                                                          0.00       2.73 f
+  u_clock_gater/enable_latched_reg[3]/Q (LNQD1BWP20P90)
+                                                          0.06 &     2.79 f
+  u_clock_gater/U8/A2 (CKNR2D8BWP20P90)                   0.00 &     2.79 f
+  data arrival time                                                  2.79
+
+  clock clk' (fall edge)                                  5.00       5.00
+  clock network delay (ideal)                             0.23       5.23
+  clock reconvergence pessimism                           0.00       5.23
+  clock uncertainty                                      -0.10       5.13
+  u_clock_gater/U8/A1 (CKNR2D8BWP20P90)                              5.13 f
+  clock gating setup time                                -0.15       4.98
+  data required time                                                 4.98
+  ------------------------------------------------------------------------------
+  data required time                                                 4.98
+  data arrival time                                                 -2.79
+  ------------------------------------------------------------------------------
+  slack (MET)                                                        2.19
+
+
+1

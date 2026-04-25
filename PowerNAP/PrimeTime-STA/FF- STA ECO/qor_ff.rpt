@@ -1,0 +1,72 @@
+****************************************
+Report : qor
+Design : pwr_ctrl_top_N4_W16
+Version: T-2022.03-SP5-1
+Date   : Fri Apr 24 19:18:11 2026
+****************************************
+
+  Timing Path Group '**clock_gating_default**' (max_delay/setup)
+  ---------------------------------------------
+  Levels of Logic:                            1
+  Critical Path Length:                    0.29
+  Critical Path Slack:                     2.19
+  Total Negative Slack:                    0.00
+  No. of Violating Paths:                     0
+  ---------------------------------------------
+
+  Timing Path Group 'clk' (max_delay/setup)
+  ---------------------------------------------
+  Levels of Logic:                            4
+  Critical Path Length:                    0.41
+  Critical Path Slack:                     2.22
+  Total Negative Slack:                    0.00
+  No. of Violating Paths:                     0
+  ---------------------------------------------
+
+  Timing Path Group '**clock_gating_default**' (min_delay/hold)
+  ---------------------------------------------
+  Levels of Logic:                            1
+  Critical Path Length:                    0.28
+  Critical Path Slack:                     0.00
+  Total Negative Slack:                    0.00
+  No. of Violating Paths:                     0
+  ---------------------------------------------
+
+  Timing Path Group 'clk' (min_delay/hold)
+  ---------------------------------------------
+  Levels of Logic:                            2
+  Critical Path Length:                    0.29
+  Critical Path Slack:                    -0.00
+  Total Negative Slack:                   -0.01
+  No. of Violating Paths:                     7
+  ---------------------------------------------
+
+  Area
+  ---------------------------------------------
+  Net Interconnect area:                   0.00
+  Total cell area:                       581.23
+  Design Area:                           581.23
+  Area Cost:                            -581.23
+  ---------------------------------------------
+
+
+  Cell & Pin Count
+  ---------------------------------------------
+  Pin Count:                               5024
+  Hierarchical Cell Count:                   18
+  Hierarchical Port Count:                  487
+  Leaf Cell Count:                         1320
+  ---------------------------------------------
+
+
+  Design Rule Violations
+  ---------------------------------------------
+  Total No. of Pins in Design:             5024
+  max_capacitance Count:                      1
+  max_fanout Count:                          10
+  max_capacitance Cost:                    0.29
+  max_fanout Cost:                       256.00
+  Total DRC Cost:                        256.29
+  ---------------------------------------------
+
+1

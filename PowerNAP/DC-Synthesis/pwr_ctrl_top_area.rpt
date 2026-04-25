@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : pwr_ctrl_top_N4_W16
+Version: W-2024.09-SP5-5
+Date   : Thu Apr 23 00:51:38 2026
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    N16ADFP_StdCelltt0p8v25c_ccs (File: /home/ns6503/Documents/powernap/lib/N16ADFP_StdCelltt0p8v25c_ccs.db)
+
+Number of ports:                          590
+Number of nets:                          1807
+Number of cells:                         1312
+Number of combinational cells:           1077
+Number of sequential cells:               217
+Number of macros/black boxes:               0
+Number of buf/inv:                        194
+Number of references:                       8
+
+Combinational area:                319.697287
+Buf/Inv area:                       30.948481
+Noncombinational area:             244.995849
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   564.693135
+Total area:                 undefined
+1
