@@ -4,6 +4,11 @@
 > **Target:** 200 MHz @ 0.8V &nbsp;|&nbsp; **Design:** `pwr_ctrl_top` (N=4, W=16) &nbsp;|&nbsp; **PDK:** TSMC N16ADFP 16nm FinFET
 
 ---
+<p align="center">
+  <img src="./Innovus-PnR/Layout.png" width="700"/>
+  <br>
+  <em>Final GDS Layout — pwr_ctrl_top | TSMC N16ADFP 16nm FinFET | Post-ECO DRC Clean</em>
+</p>
 
 ## 📌 Project Overview
 
