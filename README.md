@@ -166,5 +166,5 @@ set_output_delay 1.0 -clock clk [all_outputs]
 
 ## 👤 Author
 
-**ns6503** — NYU Polytechnic (ecs02.poly.edu)  
+**Naveen Kumar S**  
 GitHub: [ChipJUICE/PowerNAP](https://github.com/ChipJUICE/PowerNAP)
